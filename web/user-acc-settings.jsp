@@ -66,10 +66,16 @@
                 <div class="container h-100">
                     <div class="row d-flex justify-content-center align-items-center h-100">
                         <div class="col-12 col-md-9 col-lg-7 col-xl-6">
-                            <div class="card" style="border-radius: 15px;"><br>
+                            <div class="card"><br>
                                 <div class="card-body p-5">
                                     <h2 class="text-uppercase text-center mb-5">Account Settings</h2>
                                     <form>
+                                        <div class="form-outline mb-4">
+                                            <center>
+                                            <img src="images/default-user.png" width="100">
+                                            </center>
+                                        </div>
+                                        
                                         <div class="form-outline mb-4">
                                             <input type="text" class="form-control" placeholder="Your Name"/>
                                         </div>
@@ -90,10 +96,11 @@
                                             <label>Upload New Profile Picture :</label>
                                             <input type="file" class="form-control-file">
                                         </div>
-                                        <br>
+                                        
                                         <div class="d-flex justify-content-center">
                                             <button type="button" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Update</button>
                                         </div>
+                                        <br>
                                     </form>
 
                                 </div>

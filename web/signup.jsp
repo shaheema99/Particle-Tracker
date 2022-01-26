@@ -37,7 +37,7 @@
             history.forward();
         </script>
     </head>
-    <body style="background-image: url('images/signup_bg.jpeg');">
+    <body style="background-image: url('images/signupBg');background-repeat: no-repeat;background-size: 100% 100%">
         <%
             response.setHeader("Cache-Control", "no-cache,no-store,must-revalidate");
             response.setHeader("Pragma", "no-cache");
@@ -62,12 +62,10 @@
         </nav>
         <br><br><br><br><br><br><br>
         <!--signup-body-->
-        <section class="vh-50 bg-image">
-            <div class="mask d-flex align-items-center h-100 gradient-custom-3">
-                <div class="container h-100">
+                <div class="container">
                     <div class="row d-flex justify-content-center align-items-center h-100">
                         <div class="col-12 col-md-9 col-lg-7 col-xl-6">
-                            <div class="card" style="border-radius: 15px;">
+                            <div class="card" style="border-radius: 15px;opacity: 0.7;background-color: black;color: white;">
                                 <div class="card-body p-5">
                                     <h2 class="text-uppercase text-center mb-5">Create an account</h2>
 
@@ -94,7 +92,7 @@
                                         </div>
                                         
                                         <div class="d-flex justify-content-center">
-                                            <button type="button" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Register</button>
+                                            <button type="button" class="btn btn-block btn-lg gradient-custom-4 text-body">Register</button>
                                         </div>
 
                                         <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="login.jsp" style="text-decoration: none; font-weight: bold">Login here</a></p>
@@ -106,8 +104,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
         <br><br><br><br><br>
         <!--footer-->
         <div class="footer">
