@@ -88,7 +88,7 @@
                         <div class="panel-body">
                             <div class="text-center">
                                 <h3><i class="fa fa-lock fa-4x"></i></h3>
-                                <h2 class="text-center">Reset Password</h2>
+                                <h2 class="text-center">Reset Password</h2><br>
                                 <div class="panel-body">
                                     <form id="register-form" role="form" autocomplete="off" class="form">
                                         <div class="form-group">
@@ -104,7 +104,7 @@
                                             <br>
                                         </div>
                                         <div class="form-group">
-                                            <input class="btn btn-lg btn-primary btn-block" type="submit">
+                                            <input class="btn btn-lg btn-block" type="submit" value="Reset Password" style="background-color: #06204f; color: white;">
                                         </div>
                                     </form>
                                 </div>
