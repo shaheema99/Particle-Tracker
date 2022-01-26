@@ -113,5 +113,9 @@
                     </div>
                 </div>
         </div>
+        <!--footer-->
+        <div class="footer">
+            <p style="font-family:Lucida Sans;font-size: 15px;color: #06204f;margin-top: 15px;">Copyright &copy; www.MarfarersHub.com 2022. All Rights Reserved.</p>
+        </div>
     </body>
 </html>
