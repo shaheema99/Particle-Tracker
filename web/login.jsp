@@ -37,7 +37,7 @@
             history.forward();
         </script>
     </head>
-    <body style="background-image: url('images/login1.jpeg');">
+    <body style="background-image: url('images/login_bg.jpeg');">
         <%
             response.setHeader("Cache-Control", "no-cache,no-store,must-revalidate");
             response.setHeader("Pragma", "no-cache");
