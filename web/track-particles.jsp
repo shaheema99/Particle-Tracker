@@ -54,6 +54,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="nav">
                 <ul class="nav navbar-nav ml-auto" style="font-family: 'Lucida Calligraphy';">
+                    <li><a href="user-acc-settings.jsp" class="header-li"><span><i class="fas fa-cogs" aria-hidden="true"></i></span> Settings </a></li>&nbsp;&nbsp;&nbsp;
                     <li><a href="login.jsp" class="header-li"><span><i class="fas fa-sign-out-alt" aria-hidden="true"></i></span> Logout </a></li>
                 </ul>
             </div>

@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : Jan 25, 2022, 2:52:51 PM
+    Document   : user-acc-settings
+    Created on : Jan 26, 2022, 6:31:06 PM
     Author     : mnfsh
 --%>
 
@@ -8,11 +8,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <%@page errorPage="errorpage.jsp"%>
-        <title>Ocean Passport - Signup Page</title>
+        <%@page errorPage="errorpage.jsp" %>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Ocean Passport-Account Settings</title>
         <link rel="shortcut icon" href="images/logo.jpeg"/>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--css-->
+        <link rel="stylesheet" href="css-files/signup_css.css">
 
         <!--from template-->
         <!--Bootsrap 4 CDN-->
@@ -20,9 +24,6 @@
 
         <!--Fontawesome CDN-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-        <!--Custom css-->
-        <link rel="stylesheet" type="text/css" href="css-files/signup_css.css">
 
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -37,7 +38,7 @@
             history.forward();
         </script>
     </head>
-    <body style="background-image: url('images/signup_bg.jpeg');">
+    <body>
         <%
             response.setHeader("Cache-Control", "no-cache,no-store,must-revalidate");
             response.setHeader("Pragma", "no-cache");
@@ -54,23 +55,20 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="nav">
                 <ul class="nav navbar-nav ml-auto" style="font-family: 'Lucida Calligraphy';">
-                    <li><a href="index.jsp" class="header-li"><span><i class="fas fa-home" aria-hidden="true"></i></span> Home</a></li>&nbsp;&nbsp;
-                    <li><a href="signup.jsp" class="header-li"><span><i class="fas fa-chalkboard-teacher" aria-hidden="true"></i></span> Sign Up </a></li>&nbsp;&nbsp;
-                    <li><a href="login.jsp" class="header-li"><span><i class="fas fa-sign-in-alt" aria-hidden="true"></i></span> Login</a></li>
+                    <li><a href="track-particles.jsp" class="header-li"><span><i class="fas fa-arrow-left" aria-hidden="true"></i></span> Go Back </a></li>
                 </ul>
             </div>
         </nav>
-        <br><br><br><br><br><br><br>
-        <!--signup-body-->
+        <br><br><br><br>
+        <!--body-->
         <section class="vh-50 bg-image">
             <div class="mask d-flex align-items-center h-100 gradient-custom-3">
                 <div class="container h-100">
                     <div class="row d-flex justify-content-center align-items-center h-100">
                         <div class="col-12 col-md-9 col-lg-7 col-xl-6">
-                            <div class="card" style="border-radius: 15px;">
+                            <div class="card" style="border-radius: 15px;"><br>
                                 <div class="card-body p-5">
-                                    <h2 class="text-uppercase text-center mb-5">Create an account</h2>
-
+                                    <h2 class="text-uppercase text-center mb-5">Account Settings</h2>
                                     <form>
                                         <div class="form-outline mb-4">
                                             <input type="text" class="form-control" placeholder="Your Name"/>
@@ -87,18 +85,15 @@
                                         <div class="form-outline mb-4">
                                             <input type="password" class="form-control" placeholder="Your Password"/>
                                         </div>
-                                        
+
                                         <div class="form-outline mb-4">
-                                            <label>Upload Profile Picture :</label>
+                                            <label>Upload New Profile Picture :</label>
                                             <input type="file" class="form-control-file">
                                         </div>
-                                        
+                                        <br>
                                         <div class="d-flex justify-content-center">
-                                            <button type="button" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Register</button>
+                                            <button type="button" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Update</button>
                                         </div>
-
-                                        <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="login.jsp" style="text-decoration: none; font-weight: bold">Login here</a></p>
-
                                     </form>
 
                                 </div>
@@ -108,7 +103,6 @@
                 </div>
             </div>
         </section>
-        <br><br><br><br><br>
         <!--footer-->
         <div class="footer">
             <p style="font-family:Lucida Sans;font-size: 15px;color: #06204f;margin-top: 15px;">Copyright &copy; www.MarfarersHub.com 2022. All Rights Reserved.</p>
