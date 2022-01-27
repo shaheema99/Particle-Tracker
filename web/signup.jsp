@@ -62,48 +62,54 @@
         </nav>
         <br><br><br><br><br><br><br>
         <!--signup-body-->
-                <div class="container">
-                    <div class="row d-flex justify-content-center align-items-center h-100">
-                        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
-                            <div class="card" style="border-radius: 15px;opacity: 0.7;background-color: black;color: white;">
-                                <div class="card-body p-5">
-                                    <h2 class="text-uppercase text-center mb-5">Create an account</h2>
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                    <div class="card" style="border-radius: 15px;opacity: 0.7;background-color: black;color: white;">
+                        <div class="card-body p-5">
+                            <h2 class="text-uppercase text-center mb-5">Create an account</h2>
 
-                                    <form>
-                                        <div class="form-outline mb-4">
-                                            <input type="text" class="form-control" placeholder="Your Name"/>
-                                        </div>
-
-                                        <div class="form-outline mb-4">
-                                            <input type="number" class="form-control" placeholder="Your Mobile"/>
-                                        </div>
-
-                                        <div class="form-outline mb-4">
-                                            <input type="email" class="form-control" placeholder="Your Email"/>
-                                        </div>
-
-                                        <div class="form-outline mb-4">
-                                            <input type="password" class="form-control" placeholder="Your Password"/>
-                                        </div>
-                                        
-                                        <div class="form-outline mb-4">
-                                            <label>Upload Profile Picture :</label>
-                                            <input type="file" class="form-control-file">
-                                        </div>
-                                        
-                                        <div class="d-flex justify-content-center">
-                                            <button type="button" class="btn btn-block btn-lg gradient-custom-4 text-body">Register</button>
-                                        </div>
-
-                                        <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="login.jsp" style="text-decoration: none; font-weight: bold">Login here</a></p>
-
-                                    </form>
-
+                            <form>
+                                
+                                <div class="form-row form-outline mb-4">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Enter Firstname">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Enter Lastname">
+                                    </div>
                                 </div>
-                            </div>
+
+                                <div class="form-outline mb-4">
+                                    <input type="number" class="form-control" placeholder="Your Mobile"/>
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <input type="email" class="form-control" placeholder="Your Email"/>
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <input type="password" class="form-control" placeholder="Your Password"/>
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <label>Upload Profile Picture :</label>
+                                    <input type="file" class="form-control-file">
+                                </div>
+
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" class="btn btn-block btn-lg gradient-custom-4 text-body">Register</button>
+                                </div>
+
+                                <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="login.jsp" style="text-decoration: none; font-weight: bold">Login here</a></p>
+
+                            </form>
+
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
         <br><br><br><br><br>
         <!--footer-->
         <div class="footer">
