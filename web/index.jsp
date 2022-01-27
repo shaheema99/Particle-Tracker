@@ -33,6 +33,16 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
+        <!-- Bootstrap CSS2 -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+        <style>
+            #contact .card:hover i,#contact .card:hover h4{
+                color: gray;
+                cursor: pointer;
+            }
+        </style>
+
         <script>
             history.forward();
         </script>
@@ -43,7 +53,7 @@
             response.setHeader("Pragma", "no-cache");
             response.setHeader("Expires", "0");
         %>
-        
+
         <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: #06204f">
             <div>
                 <p style="color: white; font-weight: bold; font-size: 20px; font-family: 'Lucida Calligraphy';margin-top: 10px;">Ocean Passport - Particle Tracking System</p>
@@ -60,5 +70,78 @@
                 </ul>
             </div>
         </nav>
+        <!--carousel-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" height="600px" src="images/carousel-images/c3.jpeg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" height="600px" src="images/carousel-images/c1.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" height="600px" src="images/carousel-images/c2.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" height="600px" src="images/carousel-images/c4.jpg" alt="Forth slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div><br><br>
+        <!--contact-us-->
+        <section id="contact">
+            <div class="container-fluid" style="background-image: url('images/contact.jpeg');background-repeat: no-repeat;background-size:100% 100%;color: white;"><br>
+                <h3 class="text-center text-uppercase">contact us</h3>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-4 my-5" style="padding-left: 100px;">
+                        <div class="card" style="width: 300px;height: 300px;">
+                            <div class="card-body text-center">
+                                <i class="fa fa-phone fa-5x mb-3" aria-hidden="true"></i>
+                                <h4 class="text-uppercase mb-5">call us</h4>
+                                <p>+8801683615582,+8801750603409</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 my-5" style="padding-left: 100px;">
+                        <div class="card" style="width: 300px;height: 300px;">
+                            <div class="card-body text-center">
+                                <i class="fa fa-map-marker fa-5x mb-3" aria-hidden="true"></i>
+                                <h4 class="text-uppercase mb-5">office loaction</h4>
+                                <address>Suite 02, Level 12, Sahera Tropical Center </address>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 my-5" style="padding-left: 100px;">
+                        <div class="card" style="width: 300px;height: 300px;">
+                            <div class="card-body text-center">
+                                <i class="fa fa-globe fa-5x mb-3" aria-hidden="true"></i>
+                                <h4 class="text-uppercase mb-5">email</h4>
+                                <p>http://al.a.noman1416@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+        </section>
+
+        <!--footer-->
+        <div class="footer">
+            <p style="font-family:Lucida Sans;font-size: 15px;color: #06204f;margin-top: 15px;">Copyright &copy; www.MarfarersHub.com 2022. All Rights Reserved.</p>
+        </div>
+
     </body>
 </html>
