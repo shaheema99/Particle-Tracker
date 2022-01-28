@@ -11,7 +11,7 @@
         <%@page errorPage="errorpage.jsp" %>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Ocean Passport-Track Particle</title>
-        <link rel="shortcut icon" href="images/logo.jpeg"/>
+        <link rel="shortcut icon" href="images/new_logo.jpeg"/>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--from template-->

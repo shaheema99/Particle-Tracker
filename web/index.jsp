@@ -10,7 +10,7 @@
     <head>
         <%@page errorPage="errorpage.jsp"%>
         <title>Ocean Passport - Home Page</title>
-        <link rel="shortcut icon" href="images/logo.jpeg"/>
+        <link rel="shortcut icon" href="images/new_logo.jpeg"/>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -23,8 +23,10 @@
 
         <!--Custom css-->
         <link rel="stylesheet" type="text/css" href="css-files/login_css.css">
+        <link rel="stylesheet" type="text/css" href="css-files/home_css.css">
 
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
         <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
@@ -100,48 +102,82 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-        </div><br><br>
+        </div>
+        <!--home-content-->
+        <div class="wrapper" style="background-image: url('images/signup_bg.jpeg');background-repeat: no-repeat;background-size: 100% 100%">
+            <br>
+            <div class="main">
+
+                <section class="page1">
+                    <div class="page_container">
+                    </div>
+                </section>
+
+                <section class="page2">
+                    <div class="page_container">
+                    </div>
+                </section>
+
+                <section class="page3">
+                    <div class="page_container">
+                    </div>
+                </section>
+
+                <section class="page4">
+                    <div class="page_container">
+                    </div>
+                </section>
+
+            </div>
+        </div>
+        <!--team-->
+        <img src="images/team-memb.png" class="img-fluid">
         <!--contact-us-->
         <section id="contact">
-            <div class="container-fluid" style="background-image: url('images/contact.jpeg');background-repeat: no-repeat;background-size:100% 100%;color: white;"><br>
+            <div class="container-fluid align-items-center" style="background-image: url('images/contact.jpeg');background-repeat: no-repeat;background-size:100% 100%;color: white;"><br>
                 <h3 class="text-center text-uppercase">contact us</h3>
                 <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-4 my-5" style="padding-left: 100px;">
-                        <div class="card" style="width: 300px;height: 300px;">
-                            <div class="card-body text-center">
-                                <i class="fa fa-phone fa-5x mb-3" aria-hidden="true"></i>
-                                <h4 class="text-uppercase mb-5">call us</h4>
-                                <p>+8801683615582,+8801750603409</p>
+                    <div class="col-md-4">
+                        <center>
+                            <div class="card" style="width: 300px;height: 300px;">
+                                <div class="card-body text-center">
+                                    <i class="fa fa-phone fa-5x mb-3" aria-hidden="true"></i>
+                                    <h4 class="text-uppercase mb-5">call us</h4>
+                                    <p>+8801683615582,+8801750603409</p>
+                                </div>
                             </div>
-                        </div>
+                        </center>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-4 my-5" style="padding-left: 100px;">
-                        <div class="card" style="width: 300px;height: 300px;">
-                            <div class="card-body text-center">
-                                <i class="fa fa-map-marker fa-5x mb-3" aria-hidden="true"></i>
-                                <h4 class="text-uppercase mb-5">office loaction</h4>
-                                <address>Suite 02, Level 12, Sahera Tropical Center </address>
+                    <div class="col-md-4">
+                        <center>
+                            <div class="card" style="width: 300px;height: 300px;">
+                                <div class="card-body text-center">
+                                    <i class="fa fa-map-marker fa-5x mb-3" aria-hidden="true"></i>
+                                    <h4 class="text-uppercase mb-5">office loaction</h4>
+                                    <address>Suite 02, Level 12, Sahera Tropical Center </address>
+                                </div>
                             </div>
-                        </div>
+                        </center>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-4 my-5" style="padding-left: 100px;">
-                        <div class="card" style="width: 300px;height: 300px;">
-                            <div class="card-body text-center">
-                                <i class="fa fa-globe fa-5x mb-3" aria-hidden="true"></i>
-                                <h4 class="text-uppercase mb-5">email</h4>
-                                <p>http://al.a.noman1416@gmail.com</p>
+                    <div class="col-md-4">
+                        <center>
+                            <div class="card" style="width: 300px;height: 300px;">
+                                <div class="card-body text-center">
+                                    <i class="fa fa-globe fa-5x mb-3" aria-hidden="true"></i>
+                                    <h4 class="text-uppercase mb-5">email</h4>
+                                    <p>http://al.a.noman1416@gmail.com</p>
+                                </div>
                             </div>
-                        </div>
+                        </center>
                     </div>
                 </div>
-                <br><br>
+                <br><br><br>
             </div>
         </section>
-
         <!--footer-->
         <div class="footer">
             <p style="font-family:Lucida Sans;font-size: 15px;color: #06204f;margin-top: 15px;">Copyright &copy; www.MarfarersHub.com 2022. All Rights Reserved.</p>
         </div>
-
+        <script type="text/javascript" src="js-files/home_js.js"></script>
     </body>
 </html>

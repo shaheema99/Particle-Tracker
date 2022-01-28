@@ -11,7 +11,7 @@
         <%@page errorPage="errorpage.jsp" %>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Ocean Passport-Login Page</title>
-        <link rel="shortcut icon" href="images/logo.jpeg"/>
+        <link rel="shortcut icon" href="images/new_logo.jpeg"/>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--from template-->
@@ -69,21 +69,21 @@
                     <div class="card-header">
                         <h3>Sign In</h3>
                         <div class="d-flex justify-content-end social_icon">
-                            <img src="images/logo.jpeg" width="70" style="border-radius: 40px;margin-top: 20px;">
+                            <img src="images/new_logo.jpeg" width="70" style="border-radius: 40px;margin-top: 20px;">
                         </div>
                     </div>
                     <div class="card-body">
                         <form>
                             <div class="input-group form-group">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text" style="color: #06204f"><i class="fas fa-user"></i></span>
+                                    <span class="input-group-text" style="color: #00B0FF"><i class="fas fa-user"></i></span>
                                 </div>
                                 <input type="text" class="form-control" placeholder="username">
 
                             </div>
                             <div class="input-group form-group">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text" style="color: #06204f"><i class="fas fa-key"></i></span>
+                                    <span class="input-group-text" style="color: #00B0FF"><i class="fas fa-key"></i></span>
                                 </div>
                                 <input type="password" class="form-control" placeholder="password">
                             </div>

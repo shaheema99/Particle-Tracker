@@ -10,7 +10,7 @@
     <head>
         <%@page errorPage="errorpage.jsp"%>
         <title>Ocean Passport - Reset Password</title>
-        <link rel="shortcut icon" href="images/logo.jpeg"/>
+        <link rel="shortcut icon" href="images/new_logo.jpeg"/>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 

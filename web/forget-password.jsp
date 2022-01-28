@@ -10,7 +10,7 @@
     <head>
         <%@page errorPage="errorpage.jsp"%>
         <title>Ocean Passport - Forgot Password</title>
-        <link rel="shortcut icon" href="images/logo.jpeg"/>
+        <link rel="shortcut icon" href="images/new_logo.jpeg"/>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -84,7 +84,7 @@
             <div class="container" style="text-align: center">
                 <div class="row">
                     <div class="col-md-3">
-                        <img src="images/logo.jpeg" class="img-fluid rounded-circle shadow-lg" width = "200" height = "200"/>
+                        <img src="images/new_logo.jpeg" class="img-fluid rounded-circle shadow-lg" width = "200" height = "200"/>
                     </div>
                     <div class="col-md-9">
                         <h2 style="font-weight: bold">Forgot your password?</h2>
